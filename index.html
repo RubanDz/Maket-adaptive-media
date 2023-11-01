@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="training.css">
+    <script src="https://kit.fontawesome.com/213514081a.js" crossorigin="anonymous"></script>
+    <head>
+        <style>
+            header {
+                background-color: #F1F1F1;
+                padding: 20px;
+                text-align: center;
+            }
+            .navigation {
+                overflow: hidden;
+                background-color: #333;
+            }
+            .navigation a {
+                color: #f2f2f2;
+                text-decoration: none;
+                float: left;
+                display: block;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            .navigation a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            * {box-sizing: border-box;}
+            body {margin: 0;}
+            .column {
+                float: left;
+                padding: 15px;
+                width: 33.3%;
+            }
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            @media screen and (max-width: 600px) {
+                .column {width: 100%;}
+                
+            }
+            footer {
+                background-color: #F1F1F1;
+                padding: 10px;
+                text-align: center;
+            }
+
+
+                
+        </style>
+     
+
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <main>
+        <nav>
+            <div class="navigation">
+                <a href="#">Info 1</a>
+                <a href="#">Info 2</a>
+                <a href="#">Info 3</a>
+                <a href="#">Info 4</a>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="column">
+                <h1>Hello!</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum voluptatibus exercitationem animi vel nisi corrupti facere id excepturi officiis.</p>
+            </div>
+            <div class="column">
+                <h1>Hello!</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum voluptatibus exercitationem animi vel nisi corrupti facere id excepturi officiis.</p>
+            </div>
+            <div class="column">
+                <h1>Hello!</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum voluptatibus exercitationem animi vel nisi corrupti facere id excepturi officiis.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>Footer</h3>
+    </footer>
+
+               
+        
+
+
+  
+</body>
+</html>
+
+
+
+
+
